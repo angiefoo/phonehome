@@ -21,7 +21,6 @@ public class FilterFile2 {
 		// TODO Auto-generated method stub
 	        String filename = "src/angie_phonehome_01/sample/diagnostics_australia_2015_07_20_021303.csv.gz";
 	        Charset charset = Charset.forName("US-ASCII");
-	        
 	        InputStream fileStream = null;
 	        
 			try {
@@ -31,7 +30,7 @@ public class FilterFile2 {
 				e.printStackTrace();
 			}
 
-			InputStream gzipStream = new GZIPInputStream(fileStream);
+		InputStream gzipStream = new GZIPInputStream(fileStream);
 	        Reader decoder = new InputStreamReader(gzipStream, charset);
 	        BufferedReader buffered = new BufferedReader(decoder);
 	        
