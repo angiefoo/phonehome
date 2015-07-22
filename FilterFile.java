@@ -32,12 +32,6 @@ public class FilterFile2 {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
-			try {
-				
-			} finally {
-				
-			}
 			
 			BufferedReader buffered = null;
 			
